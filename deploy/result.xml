@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="MacBook-Pro-di-Fabrizio-Lovato.local" name="com.fabriziolovato.blackjack.AllTests" skipped="0" tests="21" time="0.08" timestamp="2014-04-08T13:36:32">
+<testsuite errors="0" failures="0" hostname="MacBook-Pro-di-Fabrizio-Lovato.local" name="com.fabriziolovato.blackjack.AllTests" skipped="0" tests="21" time="0.076" timestamp="2014-04-08T13:43:31">
   <properties>
     <property name="java.vendor" value="Apple Inc." />
     <property name="sun.java.launcher" value="SUN_STANDARD" />
@@ -74,18 +74,18 @@
     <property name="java.specification.version" value="1.6" />
     <property name="ant.project.invoked-targets" value="tests" />
   </properties>
-  <testcase classname="com.fabriziolovato.blackjack.GameManagerTest" name="testNotEnoughChips" time="0.0050" />
+  <testcase classname="com.fabriziolovato.blackjack.GameManagerTest" name="testNotEnoughChips" time="0.0080" />
   <testcase classname="com.fabriziolovato.blackjack.GameManagerTest" name="testWinBlackjack" time="0.0020" />
   <testcase classname="com.fabriziolovato.blackjack.GameManagerTest" name="testPush" time="0.0010" />
   <testcase classname="com.fabriziolovato.blackjack.GameManagerTest" name="testLostEverything" time="0.0010" />
-  <testcase classname="com.fabriziolovato.blackjack.GameManagerTest" name="testWinLost" time="0.0020" />
-  <testcase classname="com.fabriziolovato.blackjack.HandControllerTest" name="testPlayNewHandPlayer21DealerBlackjack" time="0.0010" />
-  <testcase classname="com.fabriziolovato.blackjack.HandControllerTest" name="testPlayNewHandDealerTakesCardsBecauseExceed21WithAces" time="0.0020" />
-  <testcase classname="com.fabriziolovato.blackjack.HandControllerTest" name="testPlayNewHandPlayerLost" time="0.0010" />
+  <testcase classname="com.fabriziolovato.blackjack.GameManagerTest" name="testWinLost" time="0.0010" />
+  <testcase classname="com.fabriziolovato.blackjack.HandControllerTest" name="testPlayNewHandPlayer21DealerBlackjack" time="0.0020" />
+  <testcase classname="com.fabriziolovato.blackjack.HandControllerTest" name="testPlayNewHandDealerTakesCardsBecauseExceed21WithAces" time="0.0010" />
+  <testcase classname="com.fabriziolovato.blackjack.HandControllerTest" name="testPlayNewHandPlayerLost" time="0.0020" />
   <testcase classname="com.fabriziolovato.blackjack.HandControllerTest" name="testPlayNewHandDealerStopForS17OneCard" time="0.0010" />
   <testcase classname="com.fabriziolovato.blackjack.HandControllerTest" name="testPlayNewHandDealerStopForS17" time="0.0010" />
-  <testcase classname="com.fabriziolovato.blackjack.HandControllerTest" name="testPlayNewHandPlayerWin" time="0.0020" />
-  <testcase classname="com.fabriziolovato.blackjack.HandControllerTest" name="testPlayNewHandPlayerWinDealerExceed21" time="0.0010" />
+  <testcase classname="com.fabriziolovato.blackjack.HandControllerTest" name="testPlayNewHandPlayerWin" time="0.0010" />
+  <testcase classname="com.fabriziolovato.blackjack.HandControllerTest" name="testPlayNewHandPlayerWinDealerExceed21" time="0.0020" />
   <testcase classname="com.fabriziolovato.blackjack.HandControllerTest" name="testPlayNewHandPlayerWinWithAce" time="0.0010" />
   <testcase classname="com.fabriziolovato.blackjack.HandControllerTest" name="testPlayNewHandPlayerLostExceed21" time="0.0010" />
   <testcase classname="com.fabriziolovato.blackjack.HandControllerTest" name="testPlayNewHandPush" time="0.0010" />
@@ -93,7 +93,7 @@
   <testcase classname="com.fabriziolovato.blackjack.HandControllerTest" name="testPlayNewHandPlayerWinBlackjack" time="0.0010" />
   <testcase classname="com.fabriziolovato.blackjack.HandControllerTest" name="testPlayNewHandPlayerWinWithDoubleAce" time="0.0010" />
   <testcase classname="com.fabriziolovato.blackjack.HandControllerTest" name="testPlayNewHandPush21" time="0.0010" />
-  <testcase classname="com.fabriziolovato.blackjack.HandControllerTest" name="testPlayNewHandHitASoft17" time="0.0020" />
+  <testcase classname="com.fabriziolovato.blackjack.HandControllerTest" name="testPlayNewHandHitASoft17" time="0.0010" />
   <testcase classname="com.fabriziolovato.blackjack.HandControllerTest" name="testPlayNewHandPushBlackjack" time="0.0010" />
   <system-out><![CDATA[****** Welcome to Blackjack ******
 Winning hands are paid 1:1, Blackjack are paids 3:2.

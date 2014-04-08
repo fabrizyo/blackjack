@@ -36,7 +36,7 @@ public class Main {
 			CommandLine line = parser.parse(options, args);
 			if (line.hasOption(HELP_OPTION_NAME)) {
 				HelpFormatter formatter = new HelpFormatter();
-				formatter.printHelp("java -jar blackjack.jar", options);
+				formatter.printHelp("java -jar blackjack.jar [options]", options);
 				return;
 			}
 

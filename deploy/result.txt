@@ -1,5 +1,5 @@
 Testsuite: com.fabriziolovato.blackjack.AllTests
-Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0,08 sec
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0,076 sec
 ------------- Standard Output ---------------
 ****** Welcome to Blackjack ******
 Winning hands are paid 1:1, Blackjack are paids 3:2.
@@ -281,12 +281,12 @@ Push, it's a tied score.
 *** The hand is over ***
 ------------- ---------------- ---------------
 
-Testcase: testNotEnoughChips took 0,006 sec
+Testcase: testNotEnoughChips took 0,007 sec
 Testcase: testWinBlackjack took 0,001 sec
 Testcase: testPush took 0,001 sec
-Testcase: testLostEverything took 0 sec
-Testcase: testWinLost took 0,002 sec
-Testcase: testPlayNewHandPlayer21DealerBlackjack took 0,001 sec
+Testcase: testLostEverything took 0,001 sec
+Testcase: testWinLost took 0,001 sec
+Testcase: testPlayNewHandPlayer21DealerBlackjack took 0,002 sec
 Testcase: testPlayNewHandDealerTakesCardsBecauseExceed21WithAces took 0,001 sec
 Testcase: testPlayNewHandPlayerLost took 0,001 sec
 Testcase: testPlayNewHandDealerStopForS17OneCard took 0,001 sec
@@ -297,7 +297,7 @@ Testcase: testPlayNewHandPlayerWinWithAce took 0,001 sec
 Testcase: testPlayNewHandPlayerLostExceed21 took 0,001 sec
 Testcase: testPlayNewHandPush took 0,001 sec
 Testcase: testPlayNewHandPlayerLostWithDealerAce took 0,001 sec
-Testcase: testPlayNewHandPlayerWinBlackjack took 0 sec
+Testcase: testPlayNewHandPlayerWinBlackjack took 0,001 sec
 Testcase: testPlayNewHandPlayerWinWithDoubleAce took 0,001 sec
 Testcase: testPlayNewHandPush21 took 0,001 sec
 Testcase: testPlayNewHandHitASoft17 took 0,001 sec
