@@ -2,7 +2,7 @@
 <project default="create_run_jar" name="Blackjack">
     <!--ANT 1.7 is required                                        -->
     <target name="create_run_jar">
-        <jar destfile="dist/blackjack-fabriziolovato.jar">
+        <jar destfile="dist/blackjack.jar">
             <manifest>
             	<attribute name="Main-Class" value="org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader"/>
             	<attribute name="Rsrc-Main-Class" value="com.fabriziolovato.blackjack.Main"/>
