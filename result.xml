@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="MacBook-Pro-di-Fabrizio-Lovato.local" name="com.fabriziolovato.blackjack.AllTests" tests="21" time="0.075" timestamp="2014-04-08T13:06:44">
+  <properties>
+    <property name="java.vendor" value="Apple Inc." />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="eclipse.pdebuild.templates" value="/Applications/eclipse/plugins/org.eclipse.pde.build_3.8.100.v20130514-1028/templates//" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.name" value="Mac OS X" />
+    <property name="sun.boot.class.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar" />
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="ant.home" value="/Applications/eclipse/plugins/org.apache.ant_1.8.4.v201303080030" />
+    <property name="java.runtime.version" value="1.6.0_65-b14-462-11M4609" />
+    <property name="user.name" value="fabrizio" />
+    <property name="awt.nativeDoubleBuffering" value="true" />
+    <property name="user.language" value="it" />
+    <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries" />
+    <property name="ant.project.default-target" value="create_run_jar" />
+    <property name="ant.project.name" value="Blackjack" />
+    <property name="java.version" value="1.6.0_65" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="MacRoman" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="/" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="50.0" />
+    <property name="user.country" value="IT" />
+    <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="/Users/fabrizio/Progetti/workspaceBeeper/blackjack/deploy/build.xml" />
+    <property name="os.version" value="10.9.2" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.version" value="20.65-b04-462" />
+    <property name="ant.library.dir" value="/Applications/eclipse/plugins/org.apache.ant_1.8.4.v201303080030/lib" />
+    <property name="java.awt.printerjob" value="apple.awt.CPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="apple.awt.CToolkit" />
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="eclipse.pdebuild.scripts" value="/Applications/eclipse/plugins/org.eclipse.pde.build_3.8.100.v20130514-1028/scripts//" />
+    <property name="user.home" value="/Users/fabrizio" />
+    <property name="java.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="java.library.path" value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:/Applications/eclipse/configuration/org.eclipse.osgi/bundles/662/1/.cp" />
+    <property name="java.vendor.url" value="http://www.apple.com/" />
+    <property name="java.vm.vendor" value="Apple Inc." />
+    <property name="gopherProxySet" value="false" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1396962402960 -Declipse.connect.port=52933 -Declipse.pdebuild.home=/Applications/eclipse/plugins/org.eclipse.pde.build_3.8.100.v20130514-1028/.// -Declipse.pdebuild.scripts=/Applications/eclipse/plugins/org.eclipse.pde.build_3.8.100.v20130514-1028/scripts// -Declipse.pdebuild.templates=/Applications/eclipse/plugins/org.eclipse.pde.build_3.8.100.v20130514-1028/templates// -Dbasedir=/Users/fabrizio/Progetti/workspaceBeeper/blackjack -Dant.home=/Applications/eclipse/plugins/org.apache.ant_1.8.4.v201303080030 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile /Users/fabrizio/Progetti/workspaceBeeper/blackjack/deploy/build.xml tests" />
+    <property name="java.class.path" value="/Applications/eclipse/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant-antlr.jar:/Applications/eclipse/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant-apache-bcel.jar:/Applications/eclipse/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant-apache-bsf.jar:/Applications/eclipse/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant-apache-log4j.jar:/Applications/eclipse/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant-apache-oro.jar:/Applications/eclipse/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant-apache-regexp.jar:/Applications/eclipse/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant-apache-resolver.jar:/Applications/eclipse/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant-apache-xalan2.jar:/Applications/eclipse/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant-commons-logging.jar:/Applications/eclipse/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant-commons-net.jar:/Applications/eclipse/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant-jai.jar:/Applications/eclipse/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant-javamail.jar:/Applications/eclipse/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant-jdepend.jar:/Applications/eclipse/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant-jmf.jar:/Applications/eclipse/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant-jsch.jar:/Applications/eclipse/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant-junit.jar:/Applications/eclipse/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant-junit4.jar:/Applications/eclipse/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant-launcher.jar:/Applications/eclipse/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant-netrexx.jar:/Applications/eclipse/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant-swing.jar:/Applications/eclipse/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant-testutil.jar:/Applications/eclipse/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant.jar:/Applications/eclipse/configuration/org.eclipse.osgi/bundles/63/1/.cp/lib/antdebug.jar:/Applications/eclipse/configuration/org.eclipse.osgi/bundles/63/1/.cp/lib/remote.jar:/Applications/eclipse/configuration/org.eclipse.osgi/bundles/64/1/.cp/lib/remoteAnt.jar:/Users/fabrizio/.ant/lib/ivy-2.3.0.jar:/Applications/eclipse/plugins/org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20130827-2048.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.8.4 compiled on May 22 2012" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.Blackjack" value="/Users/fabrizio/Progetti/workspaceBeeper/blackjack/deploy/build.xml" />
+    <property name="java.vm.specification.version" value="1.0" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="eclipse.pdebuild.home" value="/Applications/eclipse/plugins/org.eclipse.pde.build_3.8.100.v20130514-1028/.//" />
+    <property name="java.io.tmpdir" value="/var/folders/tk/8ztt_w9522g9wk79sm4jjbh00000gn/T/" />
+    <property name="java.vendor.url.bug" value="http://bugreport.apple.com/" />
+    <property name="mrj.build" value="11M4609" />
+    <property name="os.arch" value="x86_64" />
+    <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment" />
+    <property name="java.ext.dirs" value="/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext" />
+    <property name="mrj.version" value="1070.1.6.0_65-462" />
+    <property name="user.dir" value="/Users/fabrizio/Progetti/workspaceBeeper/blackjack/deploy" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="basedir" value="/Users/fabrizio/Progetti/workspaceBeeper/blackjack" />
+    <property name="ant.java.version" value="1.6" />
+    <property name="ant.file.type.Blackjack" value="file" />
+    <property name="ant.core.lib" value="/Applications/eclipse/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant.jar" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="java.specification.version" value="1.6" />
+    <property name="ant.project.invoked-targets" value="tests" />
+  </properties>
+  <testcase classname="com.fabriziolovato.blackjack.GameManagerTest" name="testNotEnoughChips" time="0.0080" />
+  <testcase classname="com.fabriziolovato.blackjack.GameManagerTest" name="testWinBlackjack" time="0.0020" />
+  <testcase classname="com.fabriziolovato.blackjack.GameManagerTest" name="testPush" time="0.0010" />
+  <testcase classname="com.fabriziolovato.blackjack.GameManagerTest" name="testLostEverything" time="0.0010" />
+  <testcase classname="com.fabriziolovato.blackjack.GameManagerTest" name="testWinLost" time="0.0010" />
+  <testcase classname="com.fabriziolovato.blackjack.HandControllerTest" name="testPlayNewHandPlayer21DealerBlackjack" time="0.0030" />
+  <testcase classname="com.fabriziolovato.blackjack.HandControllerTest" name="testPlayNewHandDealerTakesCardsBecauseExceed21WithAces" time="0.0010" />
+  <testcase classname="com.fabriziolovato.blackjack.HandControllerTest" name="testPlayNewHandPlayerLost" time="0.0010" />
+  <testcase classname="com.fabriziolovato.blackjack.HandControllerTest" name="testPlayNewHandDealerStopForS17OneCard" time="0.0020" />
+  <testcase classname="com.fabriziolovato.blackjack.HandControllerTest" name="testPlayNewHandDealerStopForS17" time="0.0010" />
+  <testcase classname="com.fabriziolovato.blackjack.HandControllerTest" name="testPlayNewHandPlayerWin" time="0.0010" />
+  <testcase classname="com.fabriziolovato.blackjack.HandControllerTest" name="testPlayNewHandPlayerWinDealerExceed21" time="0.0010" />
+  <testcase classname="com.fabriziolovato.blackjack.HandControllerTest" name="testPlayNewHandPlayerWinWithAce" time="0.0010" />
+  <testcase classname="com.fabriziolovato.blackjack.HandControllerTest" name="testPlayNewHandPlayerLostExceed21" time="0.0" />
+  <testcase classname="com.fabriziolovato.blackjack.HandControllerTest" name="testPlayNewHandPush" time="0.0010" />
+  <testcase classname="com.fabriziolovato.blackjack.HandControllerTest" name="testPlayNewHandPlayerLostWithDealerAce" time="0.0010" />
+  <testcase classname="com.fabriziolovato.blackjack.HandControllerTest" name="testPlayNewHandPlayerWinBlackjack" time="0.0" />
+  <testcase classname="com.fabriziolovato.blackjack.HandControllerTest" name="testPlayNewHandPlayerWinWithDoubleAce" time="0.0010" />
+  <testcase classname="com.fabriziolovato.blackjack.HandControllerTest" name="testPlayNewHandPush21" time="0.0010" />
+  <testcase classname="com.fabriziolovato.blackjack.HandControllerTest" name="testPlayNewHandHitASoft17" time="0.0010" />
+  <testcase classname="com.fabriziolovato.blackjack.HandControllerTest" name="testPlayNewHandPushBlackjack" time="0.0010" />
+  <system-out><![CDATA[****** Welcome to Blackjack ******
+Winning hands are paid 1:1, Blackjack are paids 3:2.
+One card deck is used, shuffled every hand.
+
+You have 90 chips.
+New hand: true
+You lost 60 chips.
+
+You have 30 chips.
+You don't have enough chips for a new hand.
+
+******* GAME OVER *******
+****** Welcome to Blackjack ******
+Winning hands are paid 1:1, Blackjack are paids 3:2.
+One card deck is used, shuffled every hand.
+
+You have 80 chips.
+New hand: true
+You won 18 chips.
+
+You have 98 chips.
+New hand: true
+You lost 5 chips.
+
+You have 93 chips.
+New hand: false
+
+******* GAME OVER *******
+****** Welcome to Blackjack ******
+Winning hands are paid 1:1, Blackjack are paids 3:2.
+One card deck is used, shuffled every hand.
+
+You have 77 chips.
+New hand: true
+Push, it's a tied score.
+
+You have 77 chips.
+New hand: false
+
+******* GAME OVER *******
+****** Welcome to Blackjack ******
+Winning hands are paid 1:1, Blackjack are paids 3:2.
+One card deck is used, shuffled every hand.
+
+You have 70 chips.
+New hand: true
+You lost 70 chips.
+
+You have 0 chips.
+You don't have enough chips for a new hand.
+
+******* GAME OVER *******
+****** Welcome to Blackjack ******
+Winning hands are paid 1:1, Blackjack are paids 3:2.
+One card deck is used, shuffled every hand.
+
+You have 100 chips.
+New hand: true
+You won 1 chips.
+
+You have 101 chips.
+New hand: true
+You lost 5 chips.
+
+You have 96 chips.
+New hand: false
+
+******* GAME OVER *******
+*** A new hand starts ***
+It's your turn:
+You cards: 10C 6C 
+New card: true
+You cards: 10C 6C 3C 
+New card: false
+It's dealer's turn:
+Dealer's cards: AC 10C 
+
+Dealer's score: 21
+Blackjack of Dealer!
+Your score: 19
+You lost.
+*** The hand is over ***
+*** A new hand starts ***
+It's your turn:
+You cards: 10C 6C 
+New card: true
+You cards: 10C 6C 3C 
+New card: false
+It's dealer's turn:
+Dealer's cards: AC 4C AC 10C 10C 
+
+Dealer exceeded 21.
+Your score: 19
+You win!
+*** The hand is over ***
+*** A new hand starts ***
+It's your turn:
+You cards: 2C 10C 
+New card: true
+You cards: 2C 10C 7C 
+New card: false
+It's dealer's turn:
+Dealer's cards: 10C 10C 
+
+Dealer's score: 20
+Your score: 19
+You lost.
+*** The hand is over ***
+*** A new hand starts ***
+It's your turn:
+You cards: 10C 6C 
+New card: true
+You cards: 10C 6C 4C 
+New card: false
+It's dealer's turn:
+Dealer's cards: AC 6C 4C 
+
+Dealer's score: 21
+Your score: 20
+You lost.
+*** The hand is over ***
+*** A new hand starts ***
+It's your turn:
+You cards: 10C 6C 
+New card: true
+You cards: 10C 6C 3C 
+New card: false
+It's dealer's turn:
+Dealer's cards: AC 6C 
+
+Dealer's score: 17
+Your score: 19
+You win!
+*** The hand is over ***
+*** A new hand starts ***
+It's your turn:
+You cards: 2C 10C 
+New card: true
+You cards: 2C 10C 8C 
+New card: false
+It's dealer's turn:
+Dealer's cards: 10C 8C 
+
+Dealer's score: 18
+Your score: 20
+You win!
+*** The hand is over ***
+*** A new hand starts ***
+It's your turn:
+You cards: 2C 10C 
+New card: true
+You cards: 2C 10C 8C 
+New card: false
+It's dealer's turn:
+Dealer's cards: 10C 5C 10C 
+
+Dealer exceeded 21.
+Your score: 20
+You win!
+*** The hand is over ***
+*** A new hand starts ***
+It's your turn:
+You cards: 2C 7C 
+New card: true
+You cards: 2C 7C AC 
+New card: false
+It's dealer's turn:
+Dealer's cards: 10C 8C 
+
+Dealer's score: 18
+Your score: 20
+You win!
+*** The hand is over ***
+*** A new hand starts ***
+It's your turn:
+You cards: 2C 10C 
+New card: true
+You cards: 2C 10C 10C 
+
+You exceeded 21.
+*** The hand is over ***
+*** A new hand starts ***
+It's your turn:
+You cards: 2C 7C 
+New card: true
+You cards: 2C 7C 10C 
+New card: false
+It's dealer's turn:
+Dealer's cards: 9C 10C 
+
+Dealer's score: 19
+Your score: 19
+Push, it's a tied score.
+*** The hand is over ***
+*** A new hand starts ***
+It's your turn:
+You cards: 2C 7C 
+New card: true
+You cards: 2C 7C 10C 
+New card: false
+It's dealer's turn:
+Dealer's cards: 9C AC 
+
+Dealer's score: 20
+Your score: 19
+You lost.
+*** The hand is over ***
+*** A new hand starts ***
+It's your turn:
+You cards: AC 10C 
+
+It's dealer's turn:
+Dealer's cards: 8C 10C 
+
+Dealer's score: 18
+Your score: 21
+You made Blackjack!
+You win!
+*** The hand is over ***
+*** A new hand starts ***
+It's your turn:
+You cards: 5C 2C 
+New card: true
+You cards: 5C 2C AC 
+New card: true
+You cards: 5C 2C AC AC 
+New card: false
+It's dealer's turn:
+Dealer's cards: 10C 8C 
+
+Dealer's score: 18
+Your score: 19
+You win!
+*** The hand is over ***
+*** A new hand starts ***
+It's your turn:
+You cards: 2C 9C 
+New card: true
+You cards: 2C 9C 10C 
+
+It's dealer's turn:
+Dealer's cards: 6C 10C 5C 
+
+Dealer's score: 21
+Your score: 21
+Push, it's a tied score.
+*** The hand is over ***
+*** A new hand starts ***
+It's your turn:
+You cards: 10C 6C 
+New card: true
+You cards: 10C 6C 4C 
+New card: false
+It's dealer's turn:
+Dealer's cards: 8C 8C AC 2C 
+
+Dealer's score: 19
+Your score: 20
+You win!
+*** The hand is over ***
+*** A new hand starts ***
+It's your turn:
+You cards: AC 10C 
+
+It's dealer's turn:
+Dealer's cards: AC 10C 
+
+Dealer's score: 21
+Blackjack of Dealer!
+Your score: 21
+You made Blackjack!
+Push, it's a tied score.
+*** The hand is over ***
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
