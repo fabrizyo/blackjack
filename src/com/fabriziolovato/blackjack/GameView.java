@@ -21,7 +21,7 @@ public class GameView {
 	}
 
 	private static void printCard(Card card) {
-		System.out.print(card.toString() + " ");
+		System.out.print(" " + card.toString());
 	}
 
 	public void printPlayerTurn() {
@@ -62,13 +62,13 @@ public class GameView {
 		System.out.print("You cards: ");
 		List<Card> cards = game.getPlayerCards();
 		printCards(cards);
+		System.out.println();
 	}
 
 	private static void printCards(List<Card> cards) {
 		for (Card card : cards) {
 			printCard(card);
 		}
-		System.out.println();
 	}
 
 	public void printDealerCards(Hand game) {
@@ -188,6 +188,19 @@ public class GameView {
 		} catch (InterruptedException e) {
 			throw new RuntimeException(e);
 		}
+	}
+
+	public void printFirstDealerCard(Hand hand) {
+		System.out.println("Dealer's visible card: " + hand.getDealerCards().get(0));
+	}
+
+	public void printPushChips() {
+		System.out.println("You have won or lost 0 chips");
+	}
+
+	public void printDealerLastCard(Hand hand) {
+		List<Card> dealerCards = hand.getDealerCards();
+		System.out.print(" " + dealerCards.get(dealerCards.size()-1));
 	}
 
 }

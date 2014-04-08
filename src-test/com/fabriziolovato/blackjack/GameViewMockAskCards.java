@@ -14,9 +14,9 @@ public class GameViewMockAskCards extends GameView {
 		System.out.println("New card: " + res);
 		return res;
 	}
-	
+
 	@Override
 	public void sleep() {
-		
+
 	}
 }

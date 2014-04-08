@@ -1,11 +1,10 @@
 package com.fabriziolovato.blackjack;
 
 /**
- * It represents all possible results of an {@link Hand}.
- * Push result means a tie.
+ * It represents all possible results of an {@link Hand}. Push result means a tie.
  * 
  * @author fabrizio
- *
+ * 
  */
 public enum HandResult {
 	Push, PlayerLost, PlayerWin, PlayerWinBlackjack;

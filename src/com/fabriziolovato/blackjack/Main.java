@@ -8,12 +8,11 @@ import org.apache.commons.cli.Options;
 import org.apache.commons.cli.ParseException;
 
 /**
- * It's the start class of game which contains the main method.
- * Some options are provided to configure the game but none of them are strictly necessary.
- * See getOptions method for an explanation of these options.
+ * It's the start class of game which contains the main method. Some options are provided to configure the game but none of them are
+ * strictly necessary. See getOptions method for an explanation of these options.
  * 
  * @author fabrizio
- *
+ * 
  */
 public class Main {
 
@@ -22,7 +21,7 @@ public class Main {
 	private static final String MIN_BET_OPTION_NAME = "minBet";
 	private static final String H17_OPTION_NAME = "H17";
 	private static final String HELP_OPTION_NAME = "help";
-	
+
 	private static final int DEFAULT_MIN_BET = 1;
 	private static final int DEFAULT_PLAYER_CHIPS = 100;
 
@@ -45,7 +44,7 @@ public class Main {
 				return;
 			}
 
-			boolean H17 = line.hasOption(H17_OPTION_NAME); //default false
+			boolean H17 = line.hasOption(H17_OPTION_NAME); // default false
 
 			Integer minBet = getMinBet(line);
 			if (minBet == null) {
@@ -56,9 +55,9 @@ public class Main {
 			if (playerChips == null) {
 				return;
 			}
-			
+
 			GameView view = new GameView();
-			new GameManager(playerChips, minBet,view,new HandController(view, H17)).play();
+			new GameManager(playerChips, minBet, view, new HandController(view, H17)).play();
 
 		} catch (ParseException exp) {
 			// oops, something went wrong

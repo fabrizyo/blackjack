@@ -6,8 +6,9 @@ import java.util.Random;
 
 /**
  * It represents and contains information of a single Hand of the game.
+ * 
  * @author fabrizio
- *
+ * 
  */
 public class Hand {
 
@@ -75,12 +76,13 @@ public class Hand {
 	public void setHandResult(HandResult handResult) {
 		this.handResult = handResult;
 	}
-	
+
 	/**
 	 * For testing purpose
+	 * 
 	 * @param deck
 	 */
-	protected void setDeck(Card[]deck)  {
+	protected void setDeck(Card[] deck) {
 		System.arraycopy(deck, 0, this.deck, 0, deck.length);
 	}
 

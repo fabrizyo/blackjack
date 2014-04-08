@@ -2,8 +2,9 @@ package com.fabriziolovato.blackjack;
 
 /**
  * It represents a Card with type and value
+ * 
  * @author fabrizio
- *
+ * 
  */
 public class Card {
 
@@ -21,6 +22,7 @@ public class Card {
 
 	/**
 	 * Return the value for Blackjack game
+	 * 
 	 * @return
 	 */
 	public int getBlackjackValue() {
@@ -34,7 +36,7 @@ public class Card {
 	@Override
 	public String toString() {
 		StringBuilder res = new StringBuilder();
-		
+
 		if (value == 1) {
 			res.append("A");
 		} else if (value <= 10) {

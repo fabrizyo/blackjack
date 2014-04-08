@@ -1,12 +1,11 @@
 package com.fabriziolovato.blackjack;
 
 /**
- * It is the main class of the game. It manages the bets for the hands and 
- * represents an entire game of player. It is part of Controller of MVC paradigm.
- * The hands are managed by the {@link HandController}.
+ * It is the main class of the game. It manages the bets for the hands and represents an entire game of player. It is part of Controller of
+ * MVC paradigm. The hands are managed by the {@link HandController}.
  * 
  * @author fabrizio
- *
+ * 
  */
 public class GameManager {
 
@@ -15,18 +14,18 @@ public class GameManager {
 	private final int minimumBet;
 	private final HandController handController;
 
-	public GameManager( int playerChips, int minimumBet,GameView view,HandController handController ) {
+	public GameManager(int playerChips, int minimumBet, GameView view, HandController handController) {
 		this.playerChips = playerChips;
 		this.minimumBet = minimumBet;
 		this.handController = handController;
-		this.view=view;
+		this.view = view;
 	}
 
 	/**
 	 * Play an entire game with bets and related hands
 	 */
 	public void play() {
-		view.printWelcome(); 
+		view.printWelcome();
 		while (true) {
 			view.printPlayerChips(playerChips);
 			if (playerChips < minimumBet) {
@@ -71,12 +70,13 @@ public class GameManager {
 			view.printPlayerChipsLost(chipsBet);
 		} else {
 			// tied score
-			view.printPush();
+			view.printPushChips();
 		}
 	}
 
 	/**
 	 * For testing purpose
+	 * 
 	 * @return
 	 */
 	protected int getPlayerChips() {
