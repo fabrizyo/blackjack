@@ -1,7 +1,7 @@
 Blackjack
 =========
 
-Blackjack text-based gamed. Download 'dist/blackjack.jar' and run the game using `java -jar blackjack.jar`, it requires java 1.7 . Run `java -jar blackjack.jar -help` for helping messaged and for options.
+Blackjack text-based gamed. Download `dist/blackjack.jar` and run the game using `java -jar blackjack.jar`, it requires java 1.7 . Run `java -jar blackjack.jar -help` for helping messaged and for options.
 
 The source is in `src` folder, `src-test` contains junit tests of game.
 
