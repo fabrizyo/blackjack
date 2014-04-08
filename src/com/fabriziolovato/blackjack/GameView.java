@@ -29,7 +29,7 @@ public class GameView {
 	}
 
 	public boolean askNewCard() {
-		return askYN("Do you want another card?");
+		return askYN("Do you want another card? (y/n): ");
 	}
 
 	private static boolean askYN(String question) {
@@ -51,7 +51,7 @@ public class GameView {
 	}
 
 	private static String getInputLine(String question) throws IOException {
-		System.out.print(question + " (y/n) ");
+		System.out.print(question);
 		BufferedReader bufferRead = new BufferedReader(new InputStreamReader(System.in));
 		String res = bufferRead.readLine();
 		System.out.println();
@@ -134,7 +134,7 @@ public class GameView {
 	}
 
 	public boolean askNewHand() {
-		return askYN("Do you want to play another hand?");
+		return askYN("Do you want to play another hand? (y/n): ");
 	}
 
 	public void printPlayerWinChips(int chips) {
@@ -148,6 +148,7 @@ public class GameView {
 	public void printGameOver() {
 		System.out.println();
 		System.out.println("******* GAME OVER *******");
+		System.out.println();
 	}
 
 	public int askChipsBet(int minimumBet, int playerChips) {

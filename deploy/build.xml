@@ -2,27 +2,27 @@
 <project default="create_run_jar" name="Blackjack">
     <!--ANT 1.7 is required                                        -->
     <target name="create_run_jar">
-        <jar destfile="dist/blackjack.jar">
+        <jar destfile="../dist/blackjack.jar">
             <manifest>
             	<attribute name="Main-Class" value="org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader"/>
             	<attribute name="Rsrc-Main-Class" value="com.fabriziolovato.blackjack.Main"/>
                 <attribute name="Class-Path" value="."/>
                 <attribute name="Rsrc-Class-Path" value="./ commons-cli-1.2.jar"/>
             </manifest>
-        	<zipfileset src="deploy/jar-in-jar-loader.zip"/>
-            <fileset dir="bin"/>
-            <zipfileset dir="lib" includes="commons-cli-1.2.jar"/>
+        	<zipfileset src="../deploy/jar-in-jar-loader.zip"/>
+            <fileset dir="../bin"/>
+            <zipfileset dir="../lib" includes="commons-cli-1.2.jar"/>
         </jar>
     </target>
 	
 	<target name="tests" >
 	  <junit printsummary="yes" haltonfailure="yes">
 	    <classpath>
-	      <pathelement location="bin/"/>
-	      <pathelement location="bin-test/"/>
-	      <pathelement location="lib/commons-cli-1.2.jar"/>
-	      <pathelement location="lib-test/hamcrest-core-1.3.jar"/>
-	      <pathelement location="lib-test/junit-4.11.jar"/>
+	      <pathelement location="../bin/"/>
+	      <pathelement location="../bin-test/"/>
+	      <pathelement location="../lib/commons-cli-1.2.jar"/>
+	      <pathelement location="../lib-test/hamcrest-core-1.3.jar"/>
+	      <pathelement location="../lib-test/junit-4.11.jar"/>
 	    </classpath>
 
 	    <test name="com.fabriziolovato.blackjack.AllTests"

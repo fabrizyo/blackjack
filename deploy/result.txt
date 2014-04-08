@@ -1,0 +1,304 @@
+Testsuite: com.fabriziolovato.blackjack.AllTests
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0,08 sec
+------------- Standard Output ---------------
+****** Welcome to Blackjack ******
+Winning hands are paid 1:1, Blackjack are paids 3:2.
+One card deck is used, shuffled every hand.
+
+You have 90 chips.
+New hand: true
+You lost 60 chips.
+
+You have 30 chips.
+You don't have enough chips for a new hand.
+
+******* GAME OVER *******
+
+****** Welcome to Blackjack ******
+Winning hands are paid 1:1, Blackjack are paids 3:2.
+One card deck is used, shuffled every hand.
+
+You have 80 chips.
+New hand: true
+You won 18 chips.
+
+You have 98 chips.
+New hand: true
+You lost 5 chips.
+
+You have 93 chips.
+New hand: false
+
+******* GAME OVER *******
+
+****** Welcome to Blackjack ******
+Winning hands are paid 1:1, Blackjack are paids 3:2.
+One card deck is used, shuffled every hand.
+
+You have 77 chips.
+New hand: true
+Push, it's a tied score.
+
+You have 77 chips.
+New hand: false
+
+******* GAME OVER *******
+
+****** Welcome to Blackjack ******
+Winning hands are paid 1:1, Blackjack are paids 3:2.
+One card deck is used, shuffled every hand.
+
+You have 70 chips.
+New hand: true
+You lost 70 chips.
+
+You have 0 chips.
+You don't have enough chips for a new hand.
+
+******* GAME OVER *******
+
+****** Welcome to Blackjack ******
+Winning hands are paid 1:1, Blackjack are paids 3:2.
+One card deck is used, shuffled every hand.
+
+You have 100 chips.
+New hand: true
+You won 1 chips.
+
+You have 101 chips.
+New hand: true
+You lost 5 chips.
+
+You have 96 chips.
+New hand: false
+
+******* GAME OVER *******
+
+*** A new hand starts ***
+It's your turn:
+You cards: 10C 6C 
+New card: true
+You cards: 10C 6C 3C 
+New card: false
+It's dealer's turn:
+Dealer's cards: AC 10C 
+
+Dealer's score: 21
+Blackjack of Dealer!
+Your score: 19
+You lost.
+*** The hand is over ***
+*** A new hand starts ***
+It's your turn:
+You cards: 10C 6C 
+New card: true
+You cards: 10C 6C 3C 
+New card: false
+It's dealer's turn:
+Dealer's cards: AC 4C AC 10C 10C 
+
+Dealer exceeded 21.
+Your score: 19
+You win!
+*** The hand is over ***
+*** A new hand starts ***
+It's your turn:
+You cards: 2C 10C 
+New card: true
+You cards: 2C 10C 7C 
+New card: false
+It's dealer's turn:
+Dealer's cards: 10C 10C 
+
+Dealer's score: 20
+Your score: 19
+You lost.
+*** The hand is over ***
+*** A new hand starts ***
+It's your turn:
+You cards: 10C 6C 
+New card: true
+You cards: 10C 6C 4C 
+New card: false
+It's dealer's turn:
+Dealer's cards: AC 6C 4C 
+
+Dealer's score: 21
+Your score: 20
+You lost.
+*** The hand is over ***
+*** A new hand starts ***
+It's your turn:
+You cards: 10C 6C 
+New card: true
+You cards: 10C 6C 3C 
+New card: false
+It's dealer's turn:
+Dealer's cards: AC 6C 
+
+Dealer's score: 17
+Your score: 19
+You win!
+*** The hand is over ***
+*** A new hand starts ***
+It's your turn:
+You cards: 2C 10C 
+New card: true
+You cards: 2C 10C 8C 
+New card: false
+It's dealer's turn:
+Dealer's cards: 10C 8C 
+
+Dealer's score: 18
+Your score: 20
+You win!
+*** The hand is over ***
+*** A new hand starts ***
+It's your turn:
+You cards: 2C 10C 
+New card: true
+You cards: 2C 10C 8C 
+New card: false
+It's dealer's turn:
+Dealer's cards: 10C 5C 10C 
+
+Dealer exceeded 21.
+Your score: 20
+You win!
+*** The hand is over ***
+*** A new hand starts ***
+It's your turn:
+You cards: 2C 7C 
+New card: true
+You cards: 2C 7C AC 
+New card: false
+It's dealer's turn:
+Dealer's cards: 10C 8C 
+
+Dealer's score: 18
+Your score: 20
+You win!
+*** The hand is over ***
+*** A new hand starts ***
+It's your turn:
+You cards: 2C 10C 
+New card: true
+You cards: 2C 10C 10C 
+
+You exceeded 21.
+*** The hand is over ***
+*** A new hand starts ***
+It's your turn:
+You cards: 2C 7C 
+New card: true
+You cards: 2C 7C 10C 
+New card: false
+It's dealer's turn:
+Dealer's cards: 9C 10C 
+
+Dealer's score: 19
+Your score: 19
+Push, it's a tied score.
+*** The hand is over ***
+*** A new hand starts ***
+It's your turn:
+You cards: 2C 7C 
+New card: true
+You cards: 2C 7C 10C 
+New card: false
+It's dealer's turn:
+Dealer's cards: 9C AC 
+
+Dealer's score: 20
+Your score: 19
+You lost.
+*** The hand is over ***
+*** A new hand starts ***
+It's your turn:
+You cards: AC 10C 
+
+It's dealer's turn:
+Dealer's cards: 8C 10C 
+
+Dealer's score: 18
+Your score: 21
+You made Blackjack!
+You win!
+*** The hand is over ***
+*** A new hand starts ***
+It's your turn:
+You cards: 5C 2C 
+New card: true
+You cards: 5C 2C AC 
+New card: true
+You cards: 5C 2C AC AC 
+New card: false
+It's dealer's turn:
+Dealer's cards: 10C 8C 
+
+Dealer's score: 18
+Your score: 19
+You win!
+*** The hand is over ***
+*** A new hand starts ***
+It's your turn:
+You cards: 2C 9C 
+New card: true
+You cards: 2C 9C 10C 
+
+It's dealer's turn:
+Dealer's cards: 6C 10C 5C 
+
+Dealer's score: 21
+Your score: 21
+Push, it's a tied score.
+*** The hand is over ***
+*** A new hand starts ***
+It's your turn:
+You cards: 10C 6C 
+New card: true
+You cards: 10C 6C 4C 
+New card: false
+It's dealer's turn:
+Dealer's cards: 8C 8C AC 2C 
+
+Dealer's score: 19
+Your score: 20
+You win!
+*** The hand is over ***
+*** A new hand starts ***
+It's your turn:
+You cards: AC 10C 
+
+It's dealer's turn:
+Dealer's cards: AC 10C 
+
+Dealer's score: 21
+Blackjack of Dealer!
+Your score: 21
+You made Blackjack!
+Push, it's a tied score.
+*** The hand is over ***
+------------- ---------------- ---------------
+
+Testcase: testNotEnoughChips took 0,006 sec
+Testcase: testWinBlackjack took 0,001 sec
+Testcase: testPush took 0,001 sec
+Testcase: testLostEverything took 0 sec
+Testcase: testWinLost took 0,002 sec
+Testcase: testPlayNewHandPlayer21DealerBlackjack took 0,001 sec
+Testcase: testPlayNewHandDealerTakesCardsBecauseExceed21WithAces took 0,001 sec
+Testcase: testPlayNewHandPlayerLost took 0,001 sec
+Testcase: testPlayNewHandDealerStopForS17OneCard took 0,001 sec
+Testcase: testPlayNewHandDealerStopForS17 took 0,001 sec
+Testcase: testPlayNewHandPlayerWin took 0,001 sec
+Testcase: testPlayNewHandPlayerWinDealerExceed21 took 0,001 sec
+Testcase: testPlayNewHandPlayerWinWithAce took 0,001 sec
+Testcase: testPlayNewHandPlayerLostExceed21 took 0,001 sec
+Testcase: testPlayNewHandPush took 0,001 sec
+Testcase: testPlayNewHandPlayerLostWithDealerAce took 0,001 sec
+Testcase: testPlayNewHandPlayerWinBlackjack took 0 sec
+Testcase: testPlayNewHandPlayerWinWithDoubleAce took 0,001 sec
+Testcase: testPlayNewHandPush21 took 0,001 sec
+Testcase: testPlayNewHandHitASoft17 took 0,001 sec
+Testcase: testPlayNewHandPushBlackjack took 0,001 sec
